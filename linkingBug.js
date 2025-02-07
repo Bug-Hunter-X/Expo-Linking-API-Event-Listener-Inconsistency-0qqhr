@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to handle deep links.  Sometimes, the `Linking.addEventListener` doesn't trigger consistently, or it might miss events entirely.  This can lead to deep links not being handled as expected, resulting in a poor user experience.
